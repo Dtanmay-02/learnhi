@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf9f5">
+  <meta name="description" content="LearnHi — explore greetings in 80 languages from around the world. Created By Tanmay Dhatrak.">
+  <meta name="author" content="Tanmay Dhatrak">
+  <title>LearnHi — A World of Hellos</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="greetings.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#collection">Skip to the greetings</a>
+  <header class="site-header wrap">
+    <a class="brand" href="#" aria-label="LearnHi home"><span class="brand-symbol" aria-hidden="true">h<span>i</span><i></i></span><span>LearnHi</span></a>
+    <nav aria-label="Main navigation"><a href="#collection">The collection</a><a href="#about">Why hello?</a></nav>
+    <button class="button header-button" data-random>Find a random hello <span aria-hidden="true">↗</span></button>
+  </header>
+
+  <main>
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="tiny-spark" aria-hidden="true">✳</span> SMALL WORD. BIG WORLD.</p>
+        <h1 id="hero-title">A world of ways<br>to say <span class="hi-word">hi<svg viewBox="0 0 180 20" aria-hidden="true"><path d="M5 13Q80 0 172 9M25 18Q95 9 157 15"/></svg></span><span class="coral">.</span></h1>
+        <p class="hero-description">Different languages. The same warm feeling.<br>Discover a new hello, and make the world<br class="desktop-break"> feel a little smaller.</p>
+        <a class="button button-coral" href="#collection">Explore the hellos <span aria-hidden="true">↓</span></a>
+        <div class="hero-footnote"><div class="mini-hellos" aria-hidden="true"><span>hi</span><span>嗨</span><span>न</span></div><p><strong id="hero-count">A world of</strong> languages. One connection.</p></div>
+      </div>
+      <div class="hello-art" aria-label="Greetings bring the world together">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <span class="art-spark spark-one" aria-hidden="true">✳</span><span class="art-spark spark-two" aria-hidden="true">✦</span>
+        <div class="speech speech-green"><span lang="fr">Bonjour!</span><small>FRENCH</small></div>
+        <div class="speech speech-yellow"><span lang="ja">こんにちは</span><small>JAPANESE</small></div>
+        <div class="globe" aria-hidden="true"><svg viewBox="0 0 230 230"><circle cx="115" cy="115" r="105" fill="#a9b8ef" stroke="#343a33" stroke-width="1.7"/><path d="M28 61L56 39 82 35 95 54 82 71 101 87 85 107 69 104 60 128 42 117 45 94 25 80ZM80 126L103 119 121 136 111 160 111 177 94 201 81 177 84 158 71 142ZM125 33L144 23 168 32 161 51 190 48 207 72 195 91 168 86 154 105 134 91 118 93 110 76 121 64ZM143 104L165 112 178 139 163 165 144 159 133 138ZM178 170L196 162 208 174 202 190 184 191Z" fill="#56744c"/><ellipse cx="115" cy="115" rx="58" ry="105" fill="none" stroke="#343a33" stroke-opacity=".35"/><path d="M12 115H218M27 61Q115 95 203 61M27 169Q115 135 203 169" fill="none" stroke="#343a33" stroke-opacity=".35"/></svg></div>
+        <div class="speech speech-main" id="featured-card"><span id="featured-hello" lang="es" dir="auto">¡Hola!</span><div class="featured-meta"><span id="featured-language">SPANISH</span><span class="smile" aria-hidden="true">☺</span></div></div>
+        <div class="speech speech-lilac"><span lang="hi">नमस्ते</span><small>HINDI</small></div>
+        <span class="art-note">a little hello goes a long way <svg viewBox="0 0 70 42" aria-hidden="true"><path d="M2 7Q39 50 65 8M53 15L66 6 66 22"/></svg></span>
+        <span class="art-star star-bottom" aria-hidden="true">✦</span>
+      </div>
+    </section>
+
+    <div class="greeting-ribbon" aria-hidden="true"><div><span>HELLO</span><i>✳</i><span>HOLA</span><i>✳</i><span>नमस्ते</span><i>✳</i><span>BONJOUR</span><i>✳</i><span>こんにちは</span><i>✳</i><span>CIAO</span><i>✳</i><span>مرحبا</span><i>✳</i><span>OLÁ</span><i>✳</i><span>HELLO</span></div></div>
+
+    <section class="collection wrap" id="collection" aria-labelledby="collection-title">
+      <div class="collection-intro"><div><p class="eyebrow">YOUR NEXT CONVERSATION STARTS HERE</p><h2 id="collection-title">Pick a language. <span>Make someone smile.</span></h2></div><span class="collection-total" id="collection-total">HELLOS FROM EVERYWHERE <span aria-hidden="true">↙</span></span></div>
+      <div class="collection-controls">
+        <label class="search-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><span class="sr-only">Search languages or greetings</span><input type="search" id="search" placeholder="Search a language or a hello…" autocomplete="off"><kbd aria-hidden="true">/</kbd></label>
+        <div class="filters" role="group" aria-label="Filter by region"><button class="filter active" data-region="All" aria-pressed="true">All hellos</button><button class="filter" data-region="Europe" aria-pressed="false">Europe</button><button class="filter" data-region="Asia" aria-pressed="false">Asia</button><button class="filter" data-region="Africa" aria-pressed="false">Africa</button><button class="filter" data-region="Americas" aria-pressed="false">Americas</button><button class="filter" data-region="Oceania" aria-pressed="false">Oceania</button></div>
+      </div>
+      <div class="results-heading"><p id="result-count" role="status" aria-live="polite">Loading your hellos…</p><p>Little words. Endless possibilities.</p></div>
+      <div class="greeting-grid" id="greeting-grid"></div>
+      <div class="empty-state" id="empty-state" hidden><span aria-hidden="true">☀</span><h3>No hellos found just yet.</h3><p>Try another language or reset your filters.</p><button class="button" id="reset-filters">Show all hellos <span aria-hidden="true">↗</span></button></div>
+      <div class="load-more-wrap"><button class="button load-more" id="load-more">A few more hellos <span aria-hidden="true">+</span></button><p id="visible-count"></p></div>
+      <noscript><p>Enable JavaScript to search and explore the full collection. A few hellos to get you started: Hello (English), Hola (Spanish), Bonjour (French), こんにちは (Japanese), नमस्ते (Hindi), مرحبا (Arabic).</p></noscript>
+    </section>
+
+    <section class="about wrap" id="about" aria-labelledby="about-title"><div class="about-symbol" aria-hidden="true">☺</div><div><p class="eyebrow">NO PASSPORT NEEDED</p><h2 id="about-title">Connection starts with a hello.</h2><p>You don’t need to speak a whole language to open a door.<br class="desktop-break"> A little curiosity, a friendly smile, and one small word will do.</p><p class="coverage-note" id="coverage-note">A growing collection of greetings from around the world. Some greetings are formal; others are casual. Usage can vary by place and context.</p></div><button class="button button-dark" data-random>Meet your next hello <span aria-hidden="true">↗</span></button></section>
+  </main>
+  <footer class="site-footer wrap"><a class="brand footer-brand" href="#" aria-label="LearnHi home">LearnHi</a><p>Created By Tanmay Dhatrak</p><a href="#hero-title">Back to the top <span aria-hidden="true">↑</span></a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <dialog id="random-dialog" aria-labelledby="random-title"><button class="dialog-close" id="close-dialog" aria-label="Close random greeting">×</button><p class="eyebrow">A LITTLE HELLO, JUST FOR YOU</p><div aria-live="polite" aria-atomic="true"><p class="random-hello" id="random-title" dir="auto"></p><p class="random-romanization" id="random-romanization"></p><h2 id="random-language"></h2><p id="random-native"></p></div><div class="dialog-actions"><button class="button button-coral" id="another-hello">Another hello <span aria-hidden="true">↻</span></button><button class="button" id="copy-random">Copy hello <span aria-hidden="true">↗</span></button></div><p id="dialog-status" role="status" aria-live="polite"></p></dialog>
+</body>
+</html>

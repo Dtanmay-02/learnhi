@@ -1,0 +1,27 @@
+{
+  "title": "Greeting reference notes",
+  "checkedOn": "2026-10-22",
+  "notes": [
+    "A curated starting collection, not every language or every greeting.",
+    "Greetings differ by time, familiarity, dialect, number of people, and community. Several traditional greetings have religious origins.",
+    "Regions are broad discovery filters. Languages are spoken in many regions and by diaspora communities.",
+    "Romanizations help readers recognize non-Latin scripts; they are not phonetic guides.",
+    "Quechua represents a Cusco variety, Armenian uses an Eastern Armenian greeting, and Punjabi is displayed in Gurmukhi."
+  ],
+  "references": [
+    { "title": "Omniglot — Hello in many languages", "url": "https://omniglot.com/language/phrases/hello.htm" },
+    { "title": "Omniglot — Irish phrases", "url": "https://www.omniglot.com/language/phrases/irish.php" },
+    { "title": "Omniglot — Punjabi phrases", "url": "https://www.omniglot.com/language/phrases/punjabi.php" },
+    { "title": "Omniglot — Telugu phrases", "url": "https://www.omniglot.com/language/phrases/telugu.php" },
+    { "title": "Omniglot — Mongolian phrases", "url": "https://www.omniglot.com/language/phrases/mongolian.php" },
+    { "title": "Omniglot — Yoruba phrases", "url": "https://www.omniglot.com/language/phrases/yoruba.php" },
+    { "title": "Omniglot — Cuzco Quechua phrases", "url": "https://www.omniglot.com/language/phrases/quechua.php" },
+    { "title": "Omniglot — Navajo phrases", "url": "https://www.omniglot.com/language/phrases/navajo.php" },
+    { "title": "Omniglot — Sinhala phrases", "url": "https://www.omniglot.com/language/phrases/sinhala.php" },
+    { "title": "Omniglot — Burmese phrases", "url": "https://www.omniglot.com/language/phrases/burmese.php" },
+    { "title": "Omniglot — Shona phrases", "url": "https://www.omniglot.com/language/phrases/shona.php" },
+    { "title": "Omniglot — Somali phrases", "url": "https://www.omniglot.com/language/phrases/somali.php" },
+    { "title": "Dewan Bahasa dan Pustaka — Helo", "url": "https://prpm.dbp.gov.my/Cari1?d=175768&keyword=helo" },
+    { "title": "Vietnam Tourism — Vietnamese phrases", "url": "https://vietnam.travel/plan-your-trip/vietnamese-phrases" }
+  ]
+}
